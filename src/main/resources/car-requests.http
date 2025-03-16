@@ -1,0 +1,5 @@
+### Request 1: Get all cars - success
+GET http://localhost:8080/api/car
+### Żądanie 1: Get all cars - NullPointerException - handled by CircuitBreaker
+GET http://localhost:8080/api/car?error=true
+

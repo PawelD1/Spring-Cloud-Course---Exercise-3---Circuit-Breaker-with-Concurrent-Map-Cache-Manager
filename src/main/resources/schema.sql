@@ -1,0 +1,6 @@
+CREATE TABLE cars (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    brand VARCHAR(50) NOT NULL,
+    model VARCHAR(50) NOT NULL,
+    production_year INT NOT NULL
+);
